@@ -15,6 +15,12 @@ level.prototype = {
 		this.game.load.spritesheet("water", "assets/water.png", 300, 300);
 		this.game.load.spritesheet("excawater", "assets/excawaterBody.png", 290, 247);
 		this.game.load.spritesheet("hand", "assets/hand.png", 80, 170);
+
+		this.game.load.spritesheet("asphalt", "assets/asphalt.png", 300, 300);
+		this.game.load.spritesheet("hill", "assets/hill.png", 300, 300);
+		this.game.load.spritesheet("mountain", "assets/mountain.png", 300, 300);
+		this.game.load.spritesheet("smallwater", "assets/smallwater.png", 300, 300);
+		this.game.load.spritesheet("deepwater", "assets/deepwater.png", 300, 300);
 	},
 
 	create: function(){
